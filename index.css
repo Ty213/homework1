@@ -1,0 +1,120 @@
+* {
+	margin: 0 auto;
+}
+html, body {
+	background-color: #111111;
+    height: 100%;
+}
+.navbar {
+	/*text-align: right;*/
+	font-size: 1.25em;
+	color: white;
+	width: 30%;
+	margin: 0 auto;
+	background-color: black;
+	position: fixed;
+	top: 0;
+}
+.navbar ul {
+	list-style-type: none;
+	/*margin: 0;*/
+}
+.navbar ul li {
+	display: inline;
+}
+.navbar ul li a {
+	text-decoration: none;
+}
+#pic {
+	width: 30%;
+	height: 30%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-right: 3%;
+	border-radius: 50%;
+	float: left;
+	background-image: url(img/cat.jpg);
+	background-size: 50% 50%;
+}
+#text {
+	/*border: 2px solid red;*/
+	margin-top: 30%;
+	font-size: 1.5em;
+	width: 70%;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+}
+.wrapper {
+	/*border: 2px solid red;*/
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;	
+}
+#aboutme {
+	margin-top: 10%;
+	font-size: 1.5em;
+	width: 85%;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+}
+a:link {
+    color: white;
+}
+a:hover {
+    color: #51585b;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: #51585b;
+}
+@media all and (max-width: 480px) {
+	.wrapper {
+		width: 400px;
+		height: 400px;
+	}
+	.navbar {
+	/*text-align: right;*/
+	font-size: 1em;
+	color: white;
+	width: 25%;
+	margin: 0 auto;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	}
+	.navbar ul li {
+	display: inline-block;
+	}
+}
+
+
+
+@media all and (min-width: 481px) and (max-width: 767px) {
+		.wrapper {
+		width: 600px;
+		height: 600px;
+	}
+	.navbar {
+	/*text-align: right;*/
+	font-size: 1em;
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	}
+	.navbar ul li {
+	display: inline;
+	}
+}
+
+@media all and (min-width: 992px) {
+	html,body {
+		background: red;
+	}
+}
